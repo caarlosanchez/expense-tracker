@@ -147,3 +147,26 @@ body{
 .totalBalance h3{
     font-size: 2rem;
 }
+
+
+@media only screen and (max-width : 900px) {
+    .globalCSS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+    width: 100%;
+    }
+
+    .balance{
+        width: 85%;
+    }
+    .transactions{
+        margin-top: 1rem;
+        width: 85%;
+    }
+
+    }
+   

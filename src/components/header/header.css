@@ -4,3 +4,9 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+
+@media only screen and (min-width : 321px) {
+     .header{
+        font-size: 1rem;
+     }
+    }
